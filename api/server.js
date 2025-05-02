@@ -105,7 +105,7 @@ app.use((req, res, next) => {
 });
 // app.use("/api/github", githubOauthRoute);
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://freelancify-swart.vercel.app",
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "Authorization"]
